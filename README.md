@@ -4,3 +4,6 @@
 3. Class with Style import
 4. State Use and Set
 5. Props with State Use and Set
+6. Destructuring variables
+7. Sum input value ParseInt is required
+8. Interval Component
