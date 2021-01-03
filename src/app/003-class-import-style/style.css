@@ -1,0 +1,22 @@
+html {
+    background: black;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.my-style {
+    background-color: grey;
+    color: black;
+    padding: 20px;
+}
