@@ -7,3 +7,4 @@
 6. Destructuring variables
 7. Sum input value ParseInt is required
 8. Interval Component
+9. Style in Component
