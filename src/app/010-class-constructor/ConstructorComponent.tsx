@@ -5,9 +5,9 @@ interface InterfaceProps {
 }
 
 interface InterfaceState {
-    name: string,
-    age: number,
-    best: boolean
+    name?: string,
+    age?: number,
+    best?: boolean
 }
 
 class ConstructorComponent extends Component<InterfaceProps, InterfaceState> {
@@ -27,8 +27,25 @@ class ConstructorComponent extends Component<InterfaceProps, InterfaceState> {
             <div>
                 <h1>Name: {this.state.name} {this.props.lastName}</h1>
                 <h2>Age: {this.state.age}</h2>
+                <Best/>
             </div>
         );
+    }
+}
+
+class Best extends Component<InterfaceState> {
+
+    render() {
+        return(
+            <div>
+                <h3>Best:</h3>
+                {this.props.best?
+                <p>Yes</p>
+                    :
+                    <p>Not</p>
+                }
+            </div>
+        )
     }
 }
 
