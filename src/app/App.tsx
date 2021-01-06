@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import ChallengeApp from "./011-challenge-state-props/ChallengeApp";
+import MethodsProps from "./012-methods-props/MethodsProps";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <ChallengeApp/>
+                <MethodsProps/>
             </div>
         )
     }
