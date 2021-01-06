@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import StyleInComponent from "./009-class-style-in/StyleInComponent";
+import ConstructorComponent from "./010-class-constructor/ConstructorComponent";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <StyleInComponent/>
+                <ConstructorComponent lastName={'App'}/>
             </div>
         )
     }
