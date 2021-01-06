@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import ConstructorComponent from "./010-class-constructor/ConstructorComponent";
+import SumComponent from "./007-sum-component/SumComponent";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <ConstructorComponent lastName={'App'}/>
+                <SumComponent valueA={0}/>
             </div>
         )
     }

@@ -23,10 +23,14 @@ export class SumComponent extends Component<InterfaceSumA & InterfaceSumB> {
         this.setState({valueB: parseInt(event.target.value)});
     }
 
+    sum() {
+        return this.state.valueA + this.state.valueB;
+    }
+
     render() {
         return(
             <div>
-                <h1>Sum: {this.state.valueA + this.state.valueB}</h1>
+                <h1>Sum: {this.sum()}</h1>
                 <input onChange={this.onChangeA}/>
                 <input onChange={this.onChangeB}/>
             </div>
