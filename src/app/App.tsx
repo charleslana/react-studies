@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import ConstructorComponent from "./010-class-constructor/ConstructorComponent";
+import ChallengeApp from "./011-challenge-state-props/ChallengeApp";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <ConstructorComponent/>
+                <ChallengeApp/>
             </div>
         )
     }
