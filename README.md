@@ -11,3 +11,4 @@
 10. Constructor and Props vs State
 11. First challenge with the contents until the moment of the list
 12. Methods with props
+13. Map ECMA Script 6 Component
