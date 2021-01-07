@@ -37,7 +37,7 @@ const newsObject = [
 ]
 
 
-class MapListComponent extends Component {
+class MapKeyComponent extends Component {
 
     render() {
 
@@ -72,4 +72,4 @@ class News extends Component<InterfaceNews> {
     }
 }
 
-export default MapListComponent;
+export default MapKeyComponent;

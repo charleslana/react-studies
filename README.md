@@ -12,4 +12,4 @@
 11. First challenge with the contents until the moment of the list
 12. Methods with props
 13. Map and Key Component
-14. Map list training
+14. Map key training
