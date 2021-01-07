@@ -1,11 +1,12 @@
 import React, {Component} from "react";
 
-class MapComponent extends Component {
+class MapKeyIndexComponent extends Component {
 
     namesArray = [
         'Test',
         'Test 1',
-        'Test 2'
+        'Test 2',
+        'Test'
     ]
 
     namesObjects = [
@@ -30,7 +31,7 @@ class MapComponent extends Component {
     ]
 
     render() {
-        const listArray = this.namesArray.map(list => <h1 key={list}>{list}</h1>);
+        const listArray = this.namesArray.map((list, index) => <h1 key={index}>{list}</h1>);
 
         const listObjects = this.namesObjects.map(
             list =>
@@ -44,10 +45,11 @@ class MapComponent extends Component {
         return (
             <div>
                 {listArray}
+                <hr/>
                 {listObjects}
             </div>
         );
     }
 }
 
-export default MapComponent;
+export default MapKeyIndexComponent;

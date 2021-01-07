@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import MapKeyComponent from "./014-class-map-list/MapKeyComponent";
+import MapKeyIndexComponent from "./013-class-map-component/MapKeyIndexComponent";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <MapKeyComponent/>
+                <MapKeyIndexComponent/>
             </div>
         )
     }
