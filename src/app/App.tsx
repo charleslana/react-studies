@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import MapKeyIndexComponent from "./013-class-map-component/MapKeyIndexComponent";
+import ChallengeMap from "./015-challenge-map/ChallengeMap";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <MapKeyIndexComponent/>
+                <ChallengeMap/>
             </div>
         )
     }

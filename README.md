@@ -13,3 +13,4 @@
 12. Methods with props
 13. Map Index and Key Component
 14. Map key training
+15. Challenge Objects arrays
