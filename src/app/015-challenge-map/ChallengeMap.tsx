@@ -32,7 +32,7 @@ class News extends Component<InterfaceStateNews> {
     onchangeInput = (event: ChangeEvent<HTMLInputElement & HTMLTextAreaElement>) => {
         const {name} = event.target;
         const value = event.target.value.trim();
-        if(value) {
+        if (value) {
             this.setState({[name]: value});
         }
     }
@@ -68,7 +68,7 @@ class News extends Component<InterfaceStateNews> {
 
     removeAll = () => {
         this.setState({
-           object: []
+            object: []
         });
     }
 
@@ -87,21 +87,21 @@ class News extends Component<InterfaceStateNews> {
                 </div>
         );
 
-        return(
+        return (
             <div>
                 <h1>Add news</h1>
                 <form onSubmit={this.add}>
                     <div>
-                        Title: <input type={'text'} name={'title'} id={'title'} onChange={this.onchangeInput} />
+                        Title: <input type={'text'} name={'title'} id={'title'} onChange={this.onchangeInput}/>
                     </div>
                     <div>
-                        Description: <textarea name={'description'} id={'description'} onChange={this.onchangeInput} />
+                        Description: <textarea name={'description'} id={'description'} onChange={this.onchangeInput}/>
                     </div>
                     <div>
-                        Author: <input type={'text'} name={'author'} id={'author'} onChange={this.onchangeInput} />
+                        Author: <input type={'text'} name={'author'} id={'author'} onChange={this.onchangeInput}/>
                     </div>
                     <div>
-                        {this.state.title && this.state.description && this.state.author?
+                        {this.state.title && this.state.description && this.state.author ?
                             <button type={'submit'}>Add</button>
                             :
                             <p>Fill in all fields on the form</p>
@@ -111,7 +111,7 @@ class News extends Component<InterfaceStateNews> {
                 <hr/>
                 <h1>News</h1>
                 <hr/>
-                {this.state.object.length?
+                {this.state.object.length ?
                     <div>
                         <button onClick={this.removeAll}>Remove All</button>
                         {list}
