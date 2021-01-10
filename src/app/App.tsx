@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import SelectComponent from "./018-select-component/SelectComponent";
+import TextareaComponent from "./019-textarea-component/TextareaComponent";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <SelectComponent/>
+                <TextareaComponent/>
             </div>
         )
     }
