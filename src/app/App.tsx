@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import LifeCycleComponent from "./020-lifecycle/LifeCycleComponent";
+import ParentChildComponent from "./021-parent-child/ParentChildComponent";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <LifeCycleComponent/>
+                <ParentChildComponent/>
             </div>
         )
     }

@@ -19,3 +19,4 @@
 18. Select Component
 19. Textarea Component
 20. LifeCycle Component (Constructor, Render e Mount)
+21. Parent and Child
