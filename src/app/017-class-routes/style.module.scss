@@ -1,0 +1,27 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$warning-color: #ffc107;
+$info-color: #17a2b8;
+$dark-color: #343a40;
+$white-color: #ffffff;
+$custom-color: #eeeeee;
+
+.container {
+  width: 100%;
+  background-color: $custom-color;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}
+
+.menu {
+  padding: 20px;
+  color: $info-color;
+  text-decoration: none;
+  &:hover {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}

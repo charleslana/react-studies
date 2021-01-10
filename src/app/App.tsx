@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import SassModuleComponent from "./016-class-module-sass/SassModuleComponent";
+import IndexComponent from "./017-class-routes/IndexComponent";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <SassModuleComponent/>
+                <IndexComponent/>
             </div>
         )
     }
