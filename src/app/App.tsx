@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import ChallengeMap from "./015-challenge-map/ChallengeMap";
+import SassModuleComponent from "./016-class-module-sass/SassModuleComponent";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <ChallengeMap/>
+                <SassModuleComponent/>
             </div>
         )
     }
