@@ -21,11 +21,15 @@ class LifeCycleComponent extends Component<InterfaceProps, InterfaceState> {
     }
 
     componentDidMount() {
-        console.log('Mount');
+        console.log('mount');
     }
 
     componentWillUnmount() {
-        console.log('Unmount');
+        console.log('unmount');
+    }
+
+    componentDidUpdate(prevProps: Readonly<InterfaceProps>, prevState: Readonly<InterfaceState>, snapshot?: any) {
+        console.log('updated');
     }
 
     handleClick = () => {
