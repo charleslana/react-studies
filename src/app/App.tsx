@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import TextareaComponent from "./019-textarea-component/TextareaComponent";
+import LifeCycleComponent from "./020-lifecycle/LifeCycleComponent";
 
 export default class App extends Component {
     render() {
         return(
             <div>
-                <TextareaComponent/>
+                <LifeCycleComponent/>
             </div>
         )
     }

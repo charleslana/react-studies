@@ -17,3 +17,5 @@
 16. Sass module style
 17. Routes Component
 18. Select Component
+19. Textarea Component
+20. LifeCycle Component (Constructor, Render e Mount)
